@@ -66,3 +66,5 @@ las violetas son azules,
 Caracter inesperado,
 en la linea 86.`
 console.log(poema3)
+
+//string values es lo que muestra en el resultado de la consola,
