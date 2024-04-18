@@ -34,5 +34,5 @@ function addTen(y) { // Funcion Pura
 }
 
 const number = 5
-const finalResult = addTen(square(number))
+const finalResult = addTen(square(number)) // Funcion Pura
 console.log(finalResult)
