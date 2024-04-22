@@ -28,4 +28,10 @@ console.log(perro1)
 perro1.emitirSonido()
 perro1.correr()
 
-console.log(Animal.prototype)
+perro1.nuevoMetodo = () => console.log('Este es un metodo nuevo')
+perro1.nuevoMetodo()
+Perro.prototype.segundoMetodo = function() {
+    console.log('Es otro nuevo metodo')
+}
+perro1.segundoMetodo()
+console.log(perro1)
